@@ -1,6 +1,6 @@
-Use Scapy
+**Use Scapy**
 
-****Enter the scapy** **command in a terminal window to load the Python
+**Enter the scapy** **command in a terminal window to load the Python
 interpreter.****
 
 ****
@@ -30,8 +30,8 @@ starting Scapy.****
 
 **Output:**
 
-![](Pictures/100000000000042C000002963CF4CAF4.png){width="17cm"
-height="10.536cm"}
+<img width="1068" height="662" alt="image" src="https://github.com/user-attachments/assets/56a09ffc-69f8-4d77-b9ac-b7f3cacedb50" />
+
 
 At the \>\>\> prompt within the Scapy shell, enter the **ls()** function
 to list all of the available default formats and protocols included with
@@ -49,8 +49,8 @@ in Scapy is ********function_name(arguments). ********Use the **ls(IP)
 
 Output:
 
-![](Pictures/100000000000034B0000018B0835F04F.png){width="17cm"
-height="7.964cm"}
+<img width="843" height="395" alt="image" src="https://github.com/user-attachments/assets/c51dc0e9-29c2-4500-bc33-a5d0d5e87008" />
+
 
 ### **Use the sniff() function**
 
@@ -70,13 +70,13 @@ as **www.cisco.com**. Remember to specify the count using the **-c
 
 **Output**
 
-![](Pictures/10000000000002460000006803D5CC70.png){width="12.321cm"
-height="2.201cm"}
+<img width="582" height="104" alt="image" src="https://github.com/user-attachments/assets/72a5594b-4813-4821-996a-a2bf74604d4f" />
+
 
 ### 
 
-![](Pictures/10000000000004030000016C5D054236.png){width="17cm"
-height="6.024cm"}
+<img width="1027" height="364" alt="image" src="https://github.com/user-attachments/assets/303fb548-2fb6-4732-9168-bb5c5c622f19" />
+
 
 View the captured traffic using the **summary() **function. The **s=\_
 **assigns the variable **s **to hold the output of the **sniff()
@@ -87,8 +87,8 @@ the output of the last function executed.
 
 \>\>\>**** **a.summary()**
 
-![](Pictures/10000000000003A0000002FDAA683000.png){width="17cm"
-height="12.497cm"}
+<img width="928" height="765" alt="image" src="https://github.com/user-attachments/assets/4e980c2b-0a94-4eef-a914-8168712ae9d7" />
+
 
 ### Sniff Filters
 
@@ -108,11 +108,11 @@ syntax is **sniff(iface=\"****interface name****\", filter =
 
 └─\$ **ping --c 10 10.6.6.23**
 
-![](Pictures/100000000000037300000060AAA37924.png){width="17cm"
-height="1.847cm"}
+<img width="883" height="96" alt="image" src="https://github.com/user-attachments/assets/645703b8-c87a-4588-9891-9a733148a0d9" />
 
-![](Pictures/100000000000076F0000018AB8648E22.png){width="17cm"
-height="3.519cm"}
+
+<img width="1903" height="394" alt="image" src="https://github.com/user-attachments/assets/3c6ddb19-d99d-4c5e-8a84-b70bdc80c420" />
+
 
 View the captured traffic with line numbers using the **nsummary()
 **function.
