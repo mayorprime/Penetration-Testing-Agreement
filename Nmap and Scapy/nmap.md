@@ -5,8 +5,9 @@ scanning host sends an ICMP echo request (ping)
 
 **nmap -sn 10.6.6.0/24**
 
-![](Pictures/100000000000033F000001D49D2504A0.png){width="15.265cm"
-height="8.595cm"}**Output:**
+**Output:**
+<img width="831" height="468" alt="image" src="https://github.com/user-attachments/assets/190c7435-2ea5-44c1-ad81-ee0d42dc629d" />
+
 
 ### Obtain additional information about the host and services
 
@@ -27,8 +28,8 @@ the password of ****kali**** when prompted.
 
 Output:
 
-![](Pictures/100000000000045400000232339C2F20.png){width="17cm"
-height="8.622cm"}
+<img width="1108" height="562" alt="image" src="https://github.com/user-attachments/assets/1b9125cb-0e1e-455a-b591-b6261e426484" />
+
 
 Find more information on these ports using the ****-A**** and ****-p****
 command options. The ****-A**** option executes several functions
@@ -37,8 +38,10 @@ scan by listing them separately with a comma between them.
 
 **nmap -A -p139,445 10.6.6.23**
 
-![](Pictures/100000000000047B00000353FA57C70E.png){width="17cm"
-height="11.649cm"}Output
+Output
+<img width="1147" height="851" alt="image" src="https://github.com/user-attachments/assets/ea74f36d-06cd-4fce-91ca-ba23b1c680e8" />
+
+
 
 ### SMB Services with Scripts
 
@@ -58,9 +61,9 @@ the Nmap NSE script with the command:
 **nmap \--script smb-enum-users.nse -p139,445 10.6.6.23**
 
 Output
+<img width="996" height="605" alt="image" src="https://github.com/user-attachments/assets/21ea1e08-d569-46a1-a489-0362ced6992b" />
 
-![](Pictures/10000000000003E40000025DA774DC73.png){width="17cm"
-height="10.324cm"}
+
 
 You can enumerate the network shares using another NSE script,
 ****smb-enum-shares.nse.**** To discover shared directories on the
@@ -70,8 +73,8 @@ target computer. Use the Nmap share enumeration script with the command:
 
 Output:
 
-![](Pictures/100000000000037D0000034CD7060EFF.png){width="17cm"
-height="13.986cm"}
+<img width="893" height="844" alt="image" src="https://github.com/user-attachments/assets/97845f5c-2637-49cb-bab1-d5cdc73be501" />
+
 
 Other networking commands:
 
@@ -79,12 +82,12 @@ Other networking commands:
 
 Determine the IP address of the Kali Ethernet interface
 
-**└─\$ ip route**
+**└─\$ ip route** 
 
 ****Determine the default gateway assigned to the Kali host using the**
 **ip route** **command****
 
-\$ ******cat /etc/resolv.conf**
+\$ **cat /etc/resolv.conf**
 
 Determine the address of the configured default DNS server by displaying
 the contents of the ****/etc/resolv.conf**** file. You can view the file
